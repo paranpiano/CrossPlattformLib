@@ -95,6 +95,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrossPlattformLib\CrossPlattformLib.csproj">
+      <Project>{26033dec-c98d-44c9-bfee-1e559a0a0755}</Project>
+      <Name>CrossPlattformLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
